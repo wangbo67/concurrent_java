@@ -6,7 +6,7 @@ import org.junit.Test;
 public class Test01 {
     private long count = 0;
 
-    private void add10k() {
+    private void add10k() {//synchronized
         int idx = 0;
         while (idx++ < 10000) {
             count += 1;
