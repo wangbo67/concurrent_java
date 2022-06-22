@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * "等待-通知"机制优化循环等待
  */
-public class Test06 {
+public class Test0601 {
     private List<Object> als = new ArrayList<>();
 
     class Allocator {
